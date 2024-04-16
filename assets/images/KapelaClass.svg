@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="204 86.8091 152.4 115.95" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="115.95" width="152.4" x="204" y="86.8091"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer" vectornator:layerName="Layer">
+<g opacity="1" vectornator:layerName="elem_koncertyOOP.Kapela">
+<path d="M206.2 87.0091L354.2 87.0091C355.305 87.0091 356.2 87.9046 356.2 89.0091L356.2 200.559C356.2 201.664 355.305 202.559 354.2 202.559L206.2 202.559C205.095 202.559 204.2 201.664 204.2 200.559L204.2 89.0091C204.2 87.9046 205.095 87.0091 206.2 87.0091Z" fill="#cccccc" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="rect"/>
+<path d="M255.8 97.4091C255.8 93.8745 258.665 91.0091 262.2 91.0091C265.735 91.0091 268.6 93.8745 268.6 97.4091C268.6 100.944 265.735 103.809 262.2 103.809C258.665 103.809 255.8 100.944 255.8 97.4091Z" fill="#add1b2" fill-rule="nonzero" opacity="1" stroke="#181818" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.8" vectornator:layerName="ellipse"/>
+<path d="M263.9 100.259C263.592 100.417 263.271 100.534 262.938 100.609C262.613 100.692 262.271 100.734 261.912 100.734C260.846 100.734 260 100.438 259.375 99.8467C258.75 99.2467 258.438 98.4341 258.438 97.4091C258.438 96.3841 258.75 95.5716 259.375 94.9716C260 94.3716 260.846 94.0716 261.912 94.0716C262.271 94.0716 262.613 94.1133 262.938 94.1967C263.271 94.28 263.592 94.4008 263.9 94.5591L263.9 95.8841C263.592 95.6758 263.288 95.5216 262.988 95.4216C262.688 95.3216 262.375 95.2716 262.05 95.2716C261.458 95.2716 260.992 95.4633 260.65 95.8467C260.317 96.2216 260.15 96.7425 260.15 97.4091C260.15 98.0675 260.317 98.5883 260.65 98.9716C260.992 99.3466 261.458 99.5341 262.05 99.5341C262.375 99.5341 262.688 99.4883 262.988 99.3967C263.288 99.2967 263.592 99.1425 263.9 98.9341L263.9 100.259Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="path"/>
+<text fill="#333333" font-family="Verdana" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 275 91.6083)" vectornator:layerName="text" vectornator:width="32.5496" x="0" y="0">
+<tspan textLength="29.5496" x="0" y="9"><![CDATA[Kapela]]></tspan>
+</text>
+<path d="M205 107.809L355.4 107.809" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="line"/>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 209 112.401)" vectornator:layerName="text" vectornator:width="107.616" x="0" y="0">
+<tspan textLength="104.616" x="0" y="9"><![CDATA[clenove : List['ClenKapely']]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 209 122.645)" vectornator:layerName="text" vectornator:width="43.5926" x="0" y="0">
+<tspan textLength="40.5926" x="0" y="9"><![CDATA[nazev : str]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 209 132.889)" vectornator:layerName="text" vectornator:width="65.1156" x="0" y="0">
+<tspan textLength="62.1156" x="0" y="9"><![CDATA[rokZalozeni : int]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 209 143.133)" vectornator:layerName="text" vectornator:width="37.2289" x="0" y="0">
+<tspan textLength="34.2289" x="0" y="9"><![CDATA[zanr : str]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 209 153.376)" vectornator:layerName="text" vectornator:width="71.475" x="0" y="0">
+<tspan textLength="68.475" x="0" y="9"><![CDATA[zemePuvodu : str]]></tspan>
+</text>
+<path d="M205 165.428L355.4 165.428" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="line"/>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 209 170.02)" vectornator:layerName="text" vectornator:width="120.61" x="0" y="0">
+<tspan textLength="117.61" x="0" y="9"><![CDATA[nastrojFiltr(nastroj: str) -> bool]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 209 180.264)" vectornator:layerName="text" vectornator:width="90.3039" x="0" y="0">
+<tspan textLength="89.7488" x="0" y="9"><![CDATA[prumernyVek() -> float]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 209 190.508)" vectornator:layerName="text" vectornator:width="74.1434" x="0" y="0">
+<tspan textLength="71.1434" x="0" y="9"><![CDATA[vypisCleny() -> str]]></tspan>
+</text>
+</g>
+</g>
+</svg>

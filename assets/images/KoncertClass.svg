@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="165.2 261.561 230 136.438" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="136.438" width="230" x="165.2" y="261.561"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer" vectornator:layerName="Layer">
+<g opacity="1" vectornator:layerName="elem_koncertyOOP.Koncert">
+<path d="M167.4 261.761L393 261.761C394.105 261.761 395 262.657 395 263.761L395 395.799C395 396.903 394.105 397.799 393 397.799L167.4 397.799C166.295 397.799 165.4 396.903 165.4 395.799L165.4 263.761C165.4 262.657 166.295 261.761 167.4 261.761Z" fill="#cccccc" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="rect"/>
+<path d="M253.8 272.161C253.8 268.627 256.665 265.761 260.2 265.761C263.735 265.761 266.6 268.627 266.6 272.161C266.6 275.696 263.735 278.561 260.2 278.561C256.665 278.561 253.8 275.696 253.8 272.161Z" fill="#add1b2" fill-rule="nonzero" opacity="1" stroke="#181818" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.8" vectornator:layerName="ellipse"/>
+<path d="M261.9 275.011C261.592 275.169 261.271 275.286 260.938 275.361C260.613 275.444 260.271 275.486 259.912 275.486C258.846 275.486 258 275.19 257.375 274.599C256.75 273.999 256.438 273.186 256.438 272.161C256.438 271.136 256.75 270.324 257.375 269.724C258 269.124 258.846 268.824 259.912 268.824C260.271 268.824 260.613 268.865 260.938 268.949C261.271 269.032 261.592 269.153 261.9 269.311L261.9 270.636C261.592 270.428 261.288 270.274 260.988 270.174C260.688 270.074 260.375 270.024 260.05 270.024C259.458 270.024 258.992 270.215 258.65 270.599C258.317 270.974 258.15 271.494 258.15 272.161C258.15 272.819 258.317 273.34 258.65 273.724C258.992 274.099 259.458 274.286 260.05 274.286C260.375 274.286 260.688 274.24 260.988 274.149C261.288 274.049 261.592 273.894 261.9 273.686L261.9 275.011Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="path"/>
+<text fill="#333333" font-family="Verdana" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 273 266.36)" vectornator:layerName="text" vectornator:width="36.7563" x="0" y="0">
+<tspan textLength="33.7563" x="0" y="9"><![CDATA[Koncert]]></tspan>
+</text>
+<path d="M166.2 282.561L394.2 282.561" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="line"/>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 287.153)" vectornator:layerName="text" vectornator:width="68.0547" x="0" y="0">
+<tspan textLength="65.0547" x="0" y="9"><![CDATA[casKonani : time]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 297.397)" vectornator:layerName="text" vectornator:width="79.8023" x="0" y="0">
+<tspan textLength="76.8023" x="0" y="9"><![CDATA[cenaVstupenky : int]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 307.641)" vectornator:layerName="text" vectornator:width="79.3211" x="0" y="0">
+<tspan textLength="76.3211" x="0" y="9"><![CDATA[datumKonani : date]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 317.885)" vectornator:layerName="text" vectornator:width="73.9285" x="0" y="0">
+<tspan textLength="70.9285" x="0" y="9"><![CDATA[mistoKonani: Klub]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 328.128)" vectornator:layerName="text" vectornator:width="43.5926" x="0" y="0">
+<tspan textLength="40.5926" x="0" y="9"><![CDATA[nazev : str]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 338.372)" vectornator:layerName="text" vectornator:width="103.285" x="0" y="0">
+<tspan textLength="100.285" x="0" y="9"><![CDATA[vystupujiciKapela: Kapela]]></tspan>
+</text>
+<path d="M166.2 350.424L394.2 350.424" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="line"/>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 355.016)" vectornator:layerName="text" vectornator:width="86.8664" x="0" y="0">
+<tspan textLength="83.8664" x="0" y="9"><![CDATA[celeInformace() -> str]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 365.26)" vectornator:layerName="text" vectornator:width="189.579" x="0" y="0">
+<tspan textLength="186.579" x="0" y="9"><![CDATA[cenovyFiltr(dolniLimit: int, horniLimit: int) -> bool]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 375.503)" vectornator:layerName="text" vectornator:width="134.961" x="0" y="0">
+<tspan textLength="134.406" x="0" y="9"><![CDATA[maximalniTrzba(sleva: int) -> float]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 170.2 385.747)" vectornator:layerName="text" vectornator:width="115.711" x="0" y="0">
+<tspan textLength="112.711" x="0" y="9"><![CDATA[mestoFiltr(mesto: str) -> bool]]></tspan>
+</text>
+</g>
+</g>
+</svg>

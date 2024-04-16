@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="451.2 122.657 115.6 44.2438" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="44.2438" width="115.6" x="451.2" y="122.657"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer" vectornator:layerName="Layer">
+<g opacity="1" vectornator:layerName="elem_koncertyOOP.KapelaRevival">
+<path d="M453.4 122.857L564.6 122.857C565.705 122.857 566.6 123.753 566.6 124.857L566.6 164.701C566.6 165.805 565.705 166.701 564.6 166.701L453.4 166.701C452.295 166.701 451.4 165.805 451.4 164.701L451.4 124.857C451.4 123.753 452.295 122.857 453.4 122.857Z" fill="#cccccc" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="rect"/>
+<path d="M469.36 133.257C469.36 129.723 472.225 126.857 475.76 126.857C479.295 126.857 482.16 129.723 482.16 133.257C482.16 136.792 479.295 139.657 475.76 139.657C472.225 139.657 469.36 136.792 469.36 133.257Z" fill="#add1b2" fill-rule="nonzero" opacity="1" stroke="#181818" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.8" vectornator:layerName="ellipse"/>
+<path d="M477.46 136.107C477.152 136.265 476.831 136.382 476.498 136.457C476.173 136.54 475.831 136.582 475.472 136.582C474.406 136.582 473.56 136.286 472.935 135.695C472.31 135.095 471.998 134.282 471.998 133.257C471.998 132.232 472.31 131.42 472.935 130.82C473.56 130.22 474.406 129.92 475.472 129.92C475.831 129.92 476.173 129.961 476.498 130.045C476.831 130.128 477.152 130.249 477.46 130.407L477.46 131.732C477.152 131.524 476.848 131.37 476.548 131.27C476.248 131.17 475.935 131.12 475.61 131.12C475.018 131.12 474.552 131.311 474.21 131.695C473.877 132.07 473.71 132.59 473.71 133.257C473.71 133.915 473.877 134.436 474.21 134.82C474.552 135.195 475.018 135.382 475.61 135.382C475.935 135.382 476.248 135.336 476.548 135.245C476.848 135.145 477.152 134.99 477.46 134.782L477.46 136.107Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="path"/>
+<text fill="#333333" font-family="Verdana" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 487.84 127.456)" vectornator:layerName="text" vectornator:width="64.0543" x="0" y="0">
+<tspan textLength="61.0543" x="0" y="9"><![CDATA[KapelaRevival]]></tspan>
+</text>
+<path d="M452.2 143.657L565.8 143.657" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="line"/>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 456.2 148.249)" vectornator:layerName="text" vectornator:width="95.9629" x="0" y="0">
+<tspan textLength="92.9629" x="0" y="9"><![CDATA[puvodniKapela : Kapela]]></tspan>
+</text>
+<path d="M452.2 160.301L565.8 160.301" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="line"/>
+</g>
+</g>
+</svg>

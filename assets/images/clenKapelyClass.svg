@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="37.6 91.9291 107.6 105.706" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="105.706" width="107.6" x="37.6" y="91.9291"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer" vectornator:layerName="Layer">
+<g opacity="1" vectornator:layerName="elem_koncertyOOP.ClenKapely">
+<path d="M39.8 92.1291L143 92.1291C144.105 92.1291 145 93.0246 145 94.1291L145 195.435C145 196.54 144.105 197.435 143 197.435L39.8 197.435C38.6954 197.435 37.8 196.54 37.8 195.435L37.8 94.1291C37.8 93.0246 38.6954 92.1291 39.8 92.1291Z" fill="#cccccc" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="rect"/>
+<path d="M57.56 102.529C57.56 98.9945 60.4254 96.1291 63.96 96.1291C67.4946 96.1291 70.36 98.9945 70.36 102.529C70.36 106.064 67.4946 108.929 63.96 108.929C60.4254 108.929 57.56 106.064 57.56 102.529Z" fill="#add1b2" fill-rule="nonzero" opacity="1" stroke="#181818" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.8" vectornator:layerName="ellipse"/>
+<path d="M65.66 105.379C65.3517 105.537 65.0309 105.654 64.6975 105.729C64.3725 105.812 64.0308 105.854 63.6725 105.854C62.6058 105.854 61.76 105.558 61.135 104.967C60.51 104.367 60.1975 103.554 60.1975 102.529C60.1975 101.504 60.51 100.692 61.135 100.092C61.76 99.4916 62.6058 99.1916 63.6725 99.1916C64.0308 99.1916 64.3725 99.2333 64.6975 99.3167C65.0309 99.4 65.3517 99.5208 65.66 99.6791L65.66 101.004C65.3517 100.796 65.0475 100.642 64.7475 100.542C64.4475 100.442 64.135 100.392 63.81 100.392C63.2183 100.392 62.7517 100.583 62.41 100.967C62.0767 101.342 61.91 101.862 61.91 102.529C61.91 103.187 62.0767 103.708 62.41 104.092C62.7517 104.467 63.2183 104.654 63.81 104.654C64.135 104.654 64.4475 104.608 64.7475 104.517C65.0475 104.417 65.3517 104.262 65.66 104.054L65.66 105.379Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none" vectornator:layerName="path"/>
+<text fill="#333333" font-family="Verdana" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 76.44 96.7283)" vectornator:layerName="text" vectornator:width="51.8426" x="0" y="0">
+<tspan textLength="48.8426" x="0" y="9"><![CDATA[ClenKapely]]></tspan>
+</text>
+<path d="M38.6 112.929L144.2 112.929" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="line"/>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 42.6 117.521)" vectornator:layerName="text" vectornator:width="87.1371" x="0" y="0">
+<tspan textLength="84.1371" x="0" y="9"><![CDATA[datumNarozeni : date]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 42.6 127.765)" vectornator:layerName="text" vectornator:width="44.0781" x="0" y="0">
+<tspan textLength="41.0781" x="0" y="9"><![CDATA[jmeno : str]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 42.6 138.009)" vectornator:layerName="text" vectornator:width="63.6676" x="0" y="0">
+<tspan textLength="60.6676" x="0" y="9"><![CDATA[kapela : Kapela]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 42.6 148.253)" vectornator:layerName="text" vectornator:width="46.523" x="0" y="0">
+<tspan textLength="43.523" x="0" y="9"><![CDATA[nastroj : str]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 42.6 158.496)" vectornator:layerName="text" vectornator:width="50.9188" x="0" y="0">
+<tspan textLength="47.9187" x="0" y="9"><![CDATA[prijmeni : str]]></tspan>
+</text>
+<path d="M38.6 170.548L144.2 170.548" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#aaaaaa" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="0.4" vectornator:layerName="line"/>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 42.6 175.14)" vectornator:layerName="text" vectornator:width="74.152" x="0" y="0">
+<tspan textLength="71.152" x="0" y="9"><![CDATA[celeJmeno() -> str]]></tspan>
+</text>
+<text fill="#333333" font-family="Helvetica" font-size="8.8" opacity="1" stroke="none" text-anchor="start" transform="matrix(1 0 0 1 42.6 185.384)" vectornator:layerName="text" vectornator:width="44.8086" x="0" y="0">
+<tspan textLength="41.8086" x="0" y="9"><![CDATA[vek() -> int]]></tspan>
+</text>
+</g>
+</g>
+</svg>
