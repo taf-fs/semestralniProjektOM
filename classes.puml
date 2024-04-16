@@ -1,0 +1,77 @@
+@startuml classes
+set namespaceSeparator none
+allowmixing
+!theme reddress-lightorange
+class "ClenKapely" as koncertyOOP.ClenKapely {
+  datumNarozeni : date
+  jmeno : str
+  kapela : Kapela
+  nastroj : str
+  prijmeni : str
+  celeJmeno() -> str
+  vek() -> int
+}
+class "Kapela" as koncertyOOP.Kapela {
+  clenove : List['ClenKapely']
+  nazev : str
+  rokZalozeni : int
+  zanr : str
+  zemePuvodu : str
+  nastrojFiltr(nastroj: str) -> bool
+  prumernyVek() -> float
+  vypisCleny() -> str
+}
+class "KapelaRevival" as koncertyOOP.KapelaRevival {
+  puvodniKapela : Kapela
+}
+class "Klub" as koncertyOOP.Klub {
+  adresa : str
+  kapacita : int
+  nazev : str
+  mesto() -> str
+}
+class "Koncert" as koncertyOOP.Koncert {
+  casKonani : time
+  cenaVstupenky : int
+  datumKonani : date
+  mistoKonani: Klub
+  nazev : str
+  vystupujiciKapela: Kapela
+  celeInformace() -> str
+  cenovyFiltr(dolniLimit: int, horniLimit: int) -> bool
+  maximalniTrzba(sleva: int) -> float
+  mestoFiltr(mesto: str) -> bool
+}
+
+usecase koncerty [
+koncerty
+:<b>List
+]
+usecase kapely [
+kapely
+:<b>List
+]
+
+usecase kluby [
+kluby
+:<b>List
+]
+
+usecase clenoveKapel [
+clenoveKapel
+:<b>List
+]
+
+kluby -up- koncertyOOP.Klub
+koncerty -up- koncertyOOP.Koncert
+clenoveKapel -- koncertyOOP.ClenKapely
+kapely -- koncertyOOP.Kapela
+kapely -- koncertyOOP.KapelaRevival
+
+koncertyOOP.KapelaRevival --|> koncertyOOP.Kapela
+koncertyOOP.Kapela "1" -left-o "1..*" koncertyOOP.ClenKapely : kapela
+koncertyOOP.Kapela "1" -right-o "0..1" koncertyOOP.KapelaRevival : puvodniKapela
+koncertyOOP.Kapela "1" --o "1" koncertyOOP.Koncert : vystupujiciKapela
+koncertyOOP.Klub "1" -right-o "*" koncertyOOP.Koncert : mistoKonani
+
+@enduml
