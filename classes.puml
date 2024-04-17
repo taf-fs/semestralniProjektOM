@@ -1,4 +1,5 @@
 @startuml classes
+'Toto je .puml soubor, ktery generuje diagram pro projekt'
 set namespaceSeparator none
 allowmixing
 !theme reddress-lightorange

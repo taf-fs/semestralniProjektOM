@@ -8,9 +8,25 @@
         hr.light {
             border-color: #CCCCCC;
         }
-        div.classes{
+        div.classes {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        justify-content: space-between;
+        }
+        ul {
+            list-style-type: none;
+        }
+        div#head {
+            display: flex;
+        }
+        div.diagram-and-modules {
+            display: flex;
+        }
+        .diagram-and-modules > div {
+            flex: 1;
+        }
+        #modules > * {
+            padding-left: 100px;
         }
     </style>
 </head>
@@ -18,18 +34,36 @@
     <h2>Semestrální projekt z Objektového modelování - Koncerty</h2>
     <p><b>Zpracoval</b>: David Horňák</p>
     <p>Semestrální projekt o struktuře koncertů v objektově orientovaném pojetí. Projekt byl zpracován v jazyce Python.</p>
-    <div id="table-of-contents">
-        <h3>Obsah</h3>
-        <ul>
-            <li><a href="#diagram">Diagram</a></li>
-            <li><a href="#classes">Třídy</a></li>
-            <li><a href="#script">Inicializace (vytvoření instancí)</a></li>
-            <li><a href="#queries">Dotazy a pravidla</a></li>
-        </ul>
+    <div id="head">
+        <div id="table-of-contents">
+            <h3>Obsah</h3>
+            <ul>
+                <li><a href="#diagram">Diagram</a></li>
+                <li><a href="#classes">Třídy</a></li>
+                <li><a href="#script">Inicializace (vytvoření instancí)</a></li>
+                <li><a href="#queries">Dotazy a pravidla</a></li>
+            </ul>
+        </div>
+        <div id="links">
+            <h3>Odkazy</h3>
+            <ul>
+                <li><a href="./koncertyOOP_raw.html">Stránka se zkopírovatelným kódem</a></li>
+                <li><a href="https://raw.githubusercontent.com/taf-fs/semestralniProjektOM/main/koncertyOOP.py?token=GHSAT0AAAAAACN2HMVAZPK5D25QI5I52UJMZQ7PUMA">Python skript ke zkopírování (raw)</a></li>
+                <li><a href="https://github.com/taf-fs/semestralniProjektOM">GitHub repozitář</a></li>
+            </ul>
+        </div>
     </div>
     <hr>
-    <h2 id="diagram" >Diagram</h2>
-    <img src="./assets/images/diagram.svg" alt="diagram2" width="50%">
+    <div class="diagram-and-modules">
+        <div>
+            <h2 id="diagram" >Diagram</h2>
+            <img src="./assets/images/diagram.svg" alt="diagram2">
+        </div>
+        <div id="modules">
+            <h3>Moduly knihoven, na kterých je skript závislý</h3>
+            <img src="./assets/images/ModuleCode.svg" alt="">
+        </div>
+    </div>
     <hr>
     <h2 id="classes">Třídy</h2>
     <div class="classes">
