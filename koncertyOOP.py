@@ -221,4 +221,3 @@ print(all(date.today() - clen.datumNarozeni > timedelta(days=0) for clen in clen
 
 # Vsechny koncerty se konaji v nejakem klubu a vystupuje tam nejaka kapela
 print(all(koncert.mistoKonani is not None and koncert.vystupujiciKapela is not None for koncert in koncerty))
-
