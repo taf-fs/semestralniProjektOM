@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koncerty - Horňák</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
     <style>
         hr.light {
             border-color: #CCCCCC;
@@ -32,12 +36,28 @@
             display: flex;
             justify-content: flex-end;
         }
+        code {
+            font-family: "JetBrains Mono", monospace;
+            font-size: 12px
+        }
     </style>
 </head>
 <body id="start">
     <h2>Semestrální projekt z Objektového modelování - Koncerty</h2>
     <p><b>Zpracoval</b>: David Horňák</p>
-    <p>Semestrální projekt o struktuře koncertů v objektově orientovaném pojetí. Projekt byl zpracován v jazyce Python.</p>
+    <div>
+        <p>
+            Tento skript v jazyce Python představuje model pro správu hudebních skupin, jejich členů, koncertních míst
+            (klubů) a koncertů v objektově orientovaném pojetí. Model je uspořádán do několika tříd, 
+            z nichž každá představuje samostatnou entitu se specifickými atributy a metodami.
+            Každá třída obsahuje své datové proměnné, které jsou načteny při inicializaci, své metody, které vnitřně vykonávají nějakou funkci a vrací na ní závislou hodnotu.
+            Popisy tříd jsou obsaženy v samostatném kódu (v docstrings), který je případně doplněn o další informace.
+        </p>
+        <p>
+            Pomocí tohoto modelu můžeme zadávat různé dotazy a pravidla, které by nám usnadnily správu a čerpání informací o koncertech.
+            Různé příklady použití jsou v sekci Dotazy a pravidla.
+        </p>
+    </div>
     <div id="head">
         <div id="table-of-contents">
             <h3>Obsah</h3>
@@ -64,7 +84,7 @@
     <div class="diagram-and-modules">
         <div>
             <h2 id="diagram" >Diagram</h2>
-            <img src="./images/diagram.svg" alt="diagram2">
+            <img src="./images/diagram2.svg" alt="diagram2">
         </div>
         <div id="modules">
             <h3>Moduly knihoven, na kterých je skript závislý</h3>
@@ -74,28 +94,34 @@
     <hr>
     <h2 id="classes">Třídy</h2>
     <div class="classes">
-        <img src="./images/kapelaCode.svg" alt="">
+        <img src="./images/kapelaCode2.svg" alt="">
         <img src="./images/kapelaClass.svg" alt="" width="240px">
     </div>
+    <p></p>
     <hr class="light">
     <div class="classes">
         <img src="./images/kapelaRevivalCode.svg" alt="">
         <img src="./images/kapelaRevivalClass.svg" alt="" width="240px">
     </div>
+    <p style="display: inline;">Je zřejmé, že revival kapela nemůže existovat bez původní kapely.</p>
     <hr class="light">
     <div class="classes">
         <img src="./images/clenKapelyCode.svg" alt="">
         <img src="./images/clenKapelyClass.svg" alt="" width="240px">
     </div>
+    <p style="display: inline;">Metoda <code>vek()</code> má své omezení, protože počitá s tím, že všichni členové kapely jsou v přítomnosti naživu.<br>
+        To už je ale problém samotné třídy, opravou by mohl být volitelný inicializační parametr <code>self.datumUmrti</code>, který by měl výchozí hodnotu aktuálního času.</p>
     <hr class="light">
     <div class="classes">
         <img src="./images/klubCode.svg" alt="">
         <img src="./images/klubClass.svg" alt="" width="240px">
     </div>
+    <p style="display: inline;">Metoda <code>mesto()</code> má své omezení, bez <code>self.adresa</code> v daném formátu ztrácí svojí správnost.<br>
+        Dá se to opravit rozdělením parametru adresy na více částí, ale pro krátkost a svůj účel si stačí pamatovat toto pravidlo.</p>
     <hr class="light">
     <div class="classes">
         <img src="./images/koncertCode.svg" alt="">
-        <img src="./images/koncertClass.svg" alt="" width="240px" >
+        <img src="./images/koncertClass.svg" alt="" width="240px">
     </div>
     <hr>
     <h2 id="script">Inicializace (vytvoření instancí)</h2>
@@ -116,8 +142,8 @@ from math import ceil
 
 class Kapela:
     """Trida Kapela reprezentuje kapelu. Jeji inicializacni parametry jsou nazev kapely, rok zalozeni,
-    zemi puvoudu, zanr, seznam clenu. Pri inicializaci by muze byt seznam clenu prazdny, totiz pri
-    inicializaci instanci tridy Clen se clen automaticky pridava to prislusne kapely"""
+    zemi puvoudu, zanr, seznam clenu. Pri inicializaci muze byt seznam clenu prazdny, totiz pri
+    inicializaci instance tridy Clen se clen automaticky pridava to prislusne kapely"""
     def __init__(self, nazev:str, rokZalozeni:int, zemePuvodu:str, zanr:str, clenove:List['ClenKapely']) -> None:
         self.nazev = nazev
         self.rokZalozeni = rokZalozeni

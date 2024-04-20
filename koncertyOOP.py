@@ -7,8 +7,8 @@ from math import ceil
 
 class Kapela:
     """Trida Kapela reprezentuje kapelu. Jeji inicializacni parametry jsou nazev kapely, rok zalozeni,
-    zemi puvoudu, zanr, seznam clenu. Pri inicializaci by muze byt seznam clenu prazdny, totiz pri
-    inicializaci instanci tridy Clen se clen automaticky pridava to prislusne kapely"""
+    zemi puvoudu, zanr, seznam clenu. Pri inicializaci muze byt seznam clenu prazdny, totiz pri
+    inicializaci instance tridy Clen se clen automaticky pridava to prislusne kapely"""
     def __init__(self, nazev:str, rokZalozeni:int, zemePuvodu:str, zanr:str, clenove:List['ClenKapely']) -> None:
         self.nazev = nazev
         self.rokZalozeni = rokZalozeni
